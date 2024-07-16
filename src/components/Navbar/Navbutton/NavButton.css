@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.navbar-button{
+    font-size: 1.5rem;
+    margin: .3rem auto;
+    width: 7rem;
+    color: #B38C3F;
+    border-radius: 3rem;
+    border: 1px solid #B38C3F;
+    padding: .1rem;
+    background-color: rgba(255, 255, 255, 0.475);
+    transition: all 250ms 0s ease-in-out;
+    
+}
+.navbar-button:hover{
+    color: white !important; 
+    margin: .3rem auto;
+    width: 13.5rem;
+    border-radius: 3rem;
+    background-color: #B38C3F;
+    cursor: pointer;
+    transform: scaleY(1.2);
+}

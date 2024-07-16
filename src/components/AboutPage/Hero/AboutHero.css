@@ -1,0 +1,73 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    align-items: center;
+    color: #B38C3F;
+}
+.hero{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+    height: 29vw;
+    background-color: black;
+    background-image: url('/src/assets/About/Hero/about1.png');
+    background-size:cover;
+    /* animation: fadein_scalel ease-in-out ; */
+    animation-timeline: view();
+    animation-range-start:1vw ;
+}
+.bioPhoto{
+    display: flex;
+    width: 100%;
+    margin-top: 2vw;
+    margin-bottom: 8vw;
+    background-image: url('/src/assets/About/Hero/Frame\ 22.png');
+    height: 40vw;
+    background-size: cover;
+    animation: fadein_scaleH ease-in-out ;
+    animation-timeline: view();
+    animation-range-start:10px ;
+}
+@keyframes fadein_scaleH {
+    0%,100%{
+        background-position: 50% 0%;
+        scale: 1; opacity: .5;
+    }
+    50%{
+    background-position: center;
+    scale: 1; opacity: 1;
+    }
+    100%{
+    background-position: 50% 100%;
+    opacity:0;
+    }
+}
+@keyframes fadein_scalel {
+    100%{
+        opacity: 0;
+        background-position: 50% 100%;
+
+    }
+    0%,50%{
+        opacity: 1;
+        background-position: 50% 0%;
+
+    }
+}
+.iam,.jdb,.tagline{
+    text-align:center;
+}
+.iam{
+    font-size: 2.4vw;
+}
+.jdb{
+    font-size: 7.8vw;
+}
+.tagline{
+    max-width: 50vw;
+    font-size: 2.1vw;
+}

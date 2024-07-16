@@ -1,0 +1,15 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    align-items: center;
+    color: #B38C3F;
+}
+.sign{
+    margin :20vw auto;
+    background-image: url('/src/assets/About/Signature/signature.png');
+    height:8vw;
+    width:50%;
+    background-size: cover;
+    background-position: center;      
+}

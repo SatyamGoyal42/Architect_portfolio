@@ -1,0 +1,14 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    color: #B38C3F;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
